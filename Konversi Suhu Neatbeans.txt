@@ -1,0 +1,33 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package pembelajaran;
+
+import java.util.Scanner;
+/**
+ *
+ * @author andrean.nugroho
+ */
+public class Pembelajaran {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // Konversi Suhu
+        Scanner Baca = new Scanner (System.in);
+        float c,r,f,k;
+        System.out.print("Celcius = "); c=Baca.nextFloat();
+        r=4/5f*c;
+        f=9/5f*c+32;
+        k=273+c;
+        System.out.println("Celcius="+c);
+        System.out.println("Reamur="+r);
+        System.out.println("Farenheat="+f);
+        System.out.println("Kelvin="+k);
+        
+    }
+    
+}

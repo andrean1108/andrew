@@ -1,0 +1,6 @@
+#Menukar Nilai 2 buah bilangan // mas-andrew.site
+A=10
+B=15
+print("Sebelum Ditukar : A =",A,"B = ",B)
+A,B=B,A
+print("Setelah Ditukar : A =",A,"B =",B)
